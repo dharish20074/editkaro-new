@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio — Editkaro.in</title>
+<meta name="description" content="Browse Editkaro.in's edited work across Short Form, Long Form, Gaming, Football, eCommerce, Documentary, Color Grading, Anime, and Ads.">
+<link rel="canonical" href="https://editkaro.in/portfolio.html">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Work+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Crect width=%27100%27 height=%27100%27 rx=%2722%27 fill=%27%230E0D12%27/%3E%3Ccircle cx=%2750%27 cy=%2750%27 r=%2718%27 fill=%27%23FF4128%27/%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="container nav__inner">
+    <a href="index.html" class="nav__logo">EDIT<span class="accent">KARO</span><span class="nav__rec">REC</span></a>
+    <nav class="nav__links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <a href="contact.html" class="btn btn--primary nav__cta">Start a Project</a>
+    <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="nav__timecode mono" id="navTimecode">EDITKARO TIMELINE — 00:00:00:00</div>
+</header>
+
+<main>
+  <section class="page-hero container">
+    <span class="breadcrumb"><a href="index.html">Home</a> / Portfolio</span>
+    <h1 class="h1">The Bin.<br>Every Clip We've Cut.</h1>
+    <p class="lede" style="margin-top:18px;">Filter by category the way we'd organize bins in an edit suite. Every thumbnail below is a placeholder — ask us for the real client reel.</p>
+  </section>
+
+  <section class="section--tight">
+    <div class="container">
+      <div class="section-head--row" style="margin-bottom:32px;">
+        <div class="filters" id="filterBar"><!-- populated by js/main.js --></div>
+        <span class="filter-count mono" id="resultCount"></span>
+      </div>
+      <div class="portfolio-grid" id="portfolioGrid"><!-- populated by js/main.js --></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container center-cta">
+      <h2 class="h2">Don't see your format?</h2>
+      <p class="lede text-center" style="margin: 14px auto 0;">If it's video and it needs to be edited, we've probably already cut something close to it.</p>
+      <div style="margin-top:28px;">
+        <a href="contact.html" class="btn btn--primary">Tell Us About Your Project →</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer__grid">
+    <div class="footer__brand">
+      <a href="index.html" class="nav__logo">EDIT<span class="accent">KARO</span></a>
+      <p>A social media marketing and video editing agency. Edit karo. Scroll rukwao.</p>
+      <div class="footer__social">
+        <a href="#" data-toast="Instagram link goes here once the account is live." aria-label="Instagram">IG</a>
+        <a href="#" data-toast="YouTube link goes here once the channel is live." aria-label="YouTube">YT</a>
+        <a href="#" data-toast="LinkedIn link goes here once the page is live." aria-label="LinkedIn">in</a>
+      </div>
+    </div>
+    <div class="footer__col">
+      <h5>Company</h5>
+      <ul>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer__col">
+      <h5>Services</h5>
+      <ul>
+        <li><a href="portfolio.html#short-form">Short Form</a></li>
+        <li><a href="portfolio.html#gaming">Gaming Videos</a></li>
+        <li><a href="portfolio.html#football">Football Edits</a></li>
+        <li><a href="portfolio.html#ecommerce">eCommerce Ads</a></li>
+      </ul>
+    </div>
+    <div class="footer__col">
+      <h5>More</h5>
+      <ul>
+        <li><a href="portfolio.html#color-grading">Color Grading</a></li>
+        <li><a href="portfolio.html#anime">Anime Videos</a></li>
+        <li><a href="portfolio.html#documentary">Documentary Style</a></li>
+        <li><a href="portfolio.html#ads">Ads</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <div class="container footer__bottom-inner">
+      <span>© 2026 EDITKARO.IN — ALL CUTS RESERVED</span>
+      <span>FIN.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/portfolio-data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
