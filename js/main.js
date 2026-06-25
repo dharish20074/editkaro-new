@@ -2,13 +2,6 @@
    EDITKARO.IN — MAIN SCRIPT
    =========================================================== */
 
-/* ---------------------------------------------------------
-   CONFIG
-   Paste your Google Apps Script Web App URL below once you've
-   deployed apps-script/Code.gs (see README.md, section 4).
-   The SAME url is used for both forms — Code.gs tells the two
-   submissions apart using the `formType` field.
-   --------------------------------------------------------- */
 const CONFIG = {
   SHEETS_ENDPOINT: "https://script.google.com/macros/s/AKfycbxNe0mIo3gVpXM8vSNk9HaarfIWFVRUiOU6g7a_wju_l4CPoWeGAxQx59ZZDSsWALC9/exec",
 };
