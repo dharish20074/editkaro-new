@@ -1,15 +1,5 @@
 /* ===========================================================
    EDITKARO.IN — PORTFOLIO DATA
-   Placeholder client work. No real client footage was supplied
-   with the project brief, so every entry below is a stand-in:
-   a placeholder thumbnail (Lorem Picsum), a fictional client
-   name, and a one-line description.
-
-   TO GO LIVE: replace `thumb` with a real exported frame/poster
-   image from the actual edit, and add a `videoUrl` field (a
-   hosted MP4, or a YouTube/Vimeo embed URL) — then update
-   js/main.js openModal() to render a <video> or <iframe>
-   instead of the placeholder note.
    =========================================================== */
 
 const PORTFOLIO_CATEGORIES = [
